@@ -4,6 +4,11 @@ import styles from "./page.module.css";
 import InputBox from "../../components/InputBox";
 import OutputBox from "../../components/OutputBox";
 
+export const metadata = {
+  title: "Tip Calculator",
+  description: "Tip calculator challenge by frontendmentor.io",
+};
+
 export default function Calculator() {
   return (
     <main className={styles.container}>

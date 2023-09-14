@@ -8,11 +8,6 @@ import store from "../../lib/redux/store";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Tip Calculator",
-  description: "Tip calculator challenge by frontendmentor.io",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
