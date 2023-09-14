@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+@media only screen and (min-width: 870px) {
+  .outputbox {
+    width: 42%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 16px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15%;
+  }
+
+  .outputamounts {
+    color: hsl(189, 41%, 97%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 45%;
+    width: 75%;
+  }
+
+  .left {
+    font-size: 16px;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .right {
+    font-size: 34px;
+    text-align: right;
+    color: hsl(172, 67%, 45%);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .lightgrey {
+    font-size: 14px;
+    color: hsl(184, 14%, 56%);
+  }
+
+  .resetbutton {
+    background-color: hsl(172, 67%, 45%);
+    font-family: "Space Mono", monospace;
+    font-size: 18px;
+    width: 75%;
+    border-radius: 5px;
+    border: none;
+    padding: 3% 20%;
+  }
+}
+
+@media only screen and (max-width: 869px) {
+  .outputbox {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15%;
+    height: 40%;
+  }
+
+  .outputamounts {
+    color: hsl(189, 41%, 97%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 75%;
+  }
+
+  .left {
+    font-size: 16px;
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .right {
+    font-size: 34px;
+    text-align: right;
+    color: hsl(172, 67%, 45%);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .lightgrey {
+    font-size: 14px;
+    color: hsl(184, 14%, 56%);
+  }
+
+  .resetbutton {
+    background-color: hsl(172, 67%, 45%);
+    font-family: "Space Mono", monospace;
+    font-size: 18px;
+    width: 75%;
+    border-radius: 5px;
+    border: none;
+    padding: 3% 20%;
+    margin-bottom: 10px;
+  }
+}

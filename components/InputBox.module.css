@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+@media only screen and (min-width: 870px) {
+  .inputbox {
+    width: 42%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: hsl(186, 14%, 43%);
+    font-size: 16px;
+  }
+
+  .billcontainer {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .billrelative {
+    position: relative;
+  }
+
+  .dollarsign {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+  }
+
+  .billinput {
+    width: 100%;
+    padding: 1% 2%;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    text-align: right;
+    text-indent: 10px;
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    padding-right: 5%;
+    cursor: pointer;
+  }
+
+  .billinput:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px hsl(172, 67%, 45%);
+  }
+
+  .billinput::-webkit-outer-spin-button,
+  .billinput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .billinput[type="number"] {
+    appearance: none;
+    -moz-appearance: textfield;
+  }
+
+  .tipgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 14px;
+    margin-top: 10px;
+  }
+
+  .tipbutton[type="radio"][name="tipOptions"] {
+    display: none;
+  }
+
+  .tipbutton[type="radio"][name="tipOptions"]:checked + .tiplabel {
+    background-color: hsl(172, 67%, 45%);
+    color: black;
+  }
+
+  .tiplabel {
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+    width: 114px;
+    cursor: pointer;
+  }
+
+  .hiddentiplabel {
+    display: none;
+  }
+
+  .tipbutton[type="number"][name="tipOptions"] {
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    width: 114px;
+    border-radius: 5px;
+    height: 100%;
+    text-align: center;
+    padding-right: 5%;
+  }
+
+  .tipbutton[type="number"][name="tipOptions"]::-webkit-outer-spin-button,
+  .tipbutton[type="number"][name="tipOptions"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .tipbutton[type="number"][name="tipOptions"] {
+    appearance: none;
+    -moz-appearance: textfield;
+  }
+
+  .tipbuttonhidden {
+    display: none;
+  }
+
+  .peoplecontainer {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .peoplerelative {
+    position: relative;
+  }
+
+  .peoplesign {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+  }
+
+  .peopleinput {
+    width: 100%;
+    padding: 1% 2%;
+    background-color: hsl(189, 41%, 97%);
+    border: 1px solid hsl(189, 41%, 97%);
+    text-align: right;
+    text-indent: 10px;
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    padding-right: 5%;
+    cursor: pointer;
+  }
+
+  .peopleinput:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px hsl(172, 67%, 45%);
+  }
+
+  .peopleinput::-webkit-outer-spin-button,
+  .peopleinput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .peopleinput[type="number"] {
+    appearance: none;
+    -moz-appearance: textfield;
+  }
+}
+
+@media only screen and (max-width: 869px) {
+  .webpage {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(185, 41%, 84%);
+    margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: hsl(185, 41%, 84%);
+    height: 920px;
+    justify-content: space-evenly;
+    font-family: "Space Mono", monospace;
+    margin: 0 auto;
+  }
+
+  .tipbox {
+    width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    height: 85%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+  }
+
+  .inputbox {
+    width: 85%;
+    margin: 0 auto;
+    color: hsl(186, 14%, 43%);
+    font-size: 16px;
+  }
+
+  .billcontainer {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .billrelative {
+    position: relative;
+  }
+
+  .dollarsign {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+  }
+
+  .billinput {
+    width: 100%;
+    padding: 1% 2%;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    text-align: right;
+    text-indent: 10px;
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    padding-right: 5%;
+    cursor: pointer;
+  }
+
+  .billinput:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px hsl(172, 67%, 45%);
+  }
+
+  .billinput::-webkit-outer-spin-button,
+  .billinput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .billinput[type="number"] {
+    appearance: none;
+    -moz-appearance: textfield;
+  }
+
+  .tipgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 14px;
+    margin-top: 10px;
+  }
+
+  .tipbutton[type="radio"][name="tipOptions"] {
+    display: none;
+  }
+
+  .tipbutton[type="radio"][name="tipOptions"]:checked + .tiplabel {
+    background-color: hsl(172, 67%, 45%);
+    color: black;
+  }
+
+  .tiplabel {
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .hiddentiplabel {
+    display: none;
+  }
+
+  .tipbutton[type="number"][name="tipOptions"] {
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    text-align: center;
+    padding-right: 5%;
+  }
+
+  .tipbutton[type="number"][name="tipOptions"]::-webkit-outer-spin-button,
+  .tipbutton[type="number"][name="tipOptions"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .tipbutton[type="number"][name="tipOptions"] {
+    appearance: none;
+    -moz-appearance: textfield;
+  }
+
+  .tipbuttonhidden {
+    display: none;
+  }
+
+  .peoplecontainer {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .peoplerelative {
+    position: relative;
+  }
+
+  .peoplesign {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+  }
+
+  .peopleinput {
+    width: 100%;
+    padding: 1% 2%;
+    background-color: hsl(189, 41%, 97%);
+    border: 1px solid hsl(189, 41%, 97%);
+    text-align: right;
+    text-indent: 10px;
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    padding-right: 5%;
+    cursor: pointer;
+  }
+
+  .peopleinput:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px hsl(172, 67%, 45%);
+  }
+
+  .peopleinput::-webkit-outer-spin-button,
+  .peopleinput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .peopleinput[type="number"] {
+    appearance: none;
+    -moz-appearance: textfield;
+  }
+}
