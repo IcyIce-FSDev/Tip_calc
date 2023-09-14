@@ -1,6 +1,6 @@
 # About
 
-    This is a tip calculator website using nextJS and redux. It will allow you to input an amount, select the tip percent or allow user input, and set number of people. It will then compute the amount(s) each person should pay and how much tip is
+This is a tip calculator website using nextJS and redux. It will allow you to input an amount, select the tip percent or allow user input, and set number of people. It will then compute the amount(s) each person should pay and how much tip is
 
 ## Getting Started
 
